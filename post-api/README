@@ -1,0 +1,49 @@
+# Post API
+
+Simple Rust REST API to server posts.
+
+## Setup
+
+### Linux/Mac
+
+Make sure no other rust is installed with:
+
+```sh
+rustc --version
+```
+
+Install `rustup`:
+
+```sh
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+```
+
+For macOS get C compiler:
+
+```sh
+xcode-select --install
+```
+
+### Windows
+
+Consult https://www.rust-lang.org/tools/install
+
+## Dev
+
+Check with:
+
+```sh
+cargo check
+```
+
+Run with:
+
+```sh
+cargo run
+```
+
+Build with:
+
+```sh
+cargo build
+```
